@@ -33,3 +33,11 @@ tags:
 ## Предотвращение
 
 Нотлок можно предотвратить при маппинге, подобрав OD карты для [сложности](/wiki/Beatmap/Difficulty) в соответствии с её плотностью объектов и BPM песни. При BPM от 200 и выше рекомендуется использовать OD от 5 и выше. Подробнее см. в руководстве [Avoiding notelock at high BPM](https://osu.ppy.sh/community/forums/topics/334458).
+
+## Нотлок в osu!(lazer)
+
+В сравнении с osu!(stable), нотлок в osu!(lazer) стал более смягчённым, потому что теперь первый объект перестает блокировать второй объект после того, как временное окно первого объекта достигло смещения в 0 мс.
+
+![](/wiki/Client/Release_stream/Lazer/Gameplay_differences_in_osu!(lazer)/img/notelock.gif)
+
+Благодаря этому изменению игрокам стало проще восстанавливаться после промахов на картах с обильными [стримами](/wiki/Beatmap/Pattern/osu!/Stream), [джампами](/wiki/Beatmap/Pattern/osu!/Jump) и низким [OD](/wiki/Beatmap/Overall_difficulty).
